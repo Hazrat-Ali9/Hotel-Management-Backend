@@ -1,6 +1,6 @@
 from django.db import models
 from django.urls import reverse
-
+# models
 # Create your models here.
 
 class Category(models.Model):
