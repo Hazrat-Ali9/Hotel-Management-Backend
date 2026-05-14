@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import Product, ReviewRating
-# admin
+# Admin
 # Register your models here.
 
 class ProductAdmin(admin.ModelAdmin):
