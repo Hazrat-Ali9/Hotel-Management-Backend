@@ -3,7 +3,7 @@ from .models import Product, ReviewRating
 from category.models import Category
 from cart.models import CartItem
 from django.db.models import Q
-
+# views
 from cart.views import _cart_id
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.http import HttpResponse
